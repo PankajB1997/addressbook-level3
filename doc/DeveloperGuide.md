@@ -41,13 +41,22 @@ Priorities: High (must have) - `* * *`, Medium (nice to have)  - `* *`,  Low (un
 
 Priority | As a ... | I want to ... | So that I can...
 -------- | :-------- | :--------- | :-----------
+`* * *` | user | store name, email, phone number, address, tag words for each new contact added | 
 `* * *` | new user | see usage instructions | refer to instructions when I forget how to use the App
 `* * *` | user | add a new person | 
 `* * *` | user | delete a person | can remove entries that I no longer need
 `* * *` | user | find a person by name | locate details of persons without having to go through the entire list
+`* * *` | user | edit the information of an existing contact | update contact information of people
+`* * *` | user | categorize contacts | classify contacts as friends, colleagues, acquaintances, etc.
+`* * *` | user | view contacts by category in a tabular format | view list of friends at a time for instance, etc.
+`* * *` | user | view all contacts at once in a tabular format | view a list of all contacts in the address book
+`* *` | user | add notes/tags to each contact optionally | mark some contacts with tag words they are associated with
+`* *` | user | have multiple address books and ask the user to open a certain address book at the start of the system | 
 `* *` | user | hide [private contact details](#private-contact-detail) by default | to minimize chance of someone else seeing them by accident
 `*` | user with many persons in the address book | sort persons by name | locate a person easily
-
+`*` | user | export a list of specific information of contacts (categorized) to a file in a specified directory | collect only certain information such as only name or phone number of contacts and store the information in a file in the directory of my choice
+`*` | user | import a list of contacts from an external file into the address book | add contacts stored somewhere else quickly to this address book
+`*` | user | skype call any of the contacts | quickly call anyone in the address book on skype using skype credit
 
 ## Appendix B : Use Cases
 
