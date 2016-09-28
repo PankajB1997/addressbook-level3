@@ -1,10 +1,21 @@
 package seedu.addressbook.storage;
 
 import seedu.addressbook.data.AddressBook;
+import seedu.addressbook.data.exception.IllegalValueException;
 import seedu.addressbook.storage.StorageFile.StorageOperationException;
 
 public abstract class Storage {
 
+	
+    /**
+     * Signals that the given file path does not fulfill the storage filepath constraints.
+     */
+    public static class InvalidStorageFilePathException extends IllegalValueException {
+        public InvalidStorageFilePathException(String message) {
+            super(message);
+        }
+    }
+	
 	/**
      * Saves all data to this storage file.
      *
